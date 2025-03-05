@@ -1,0 +1,115 @@
+
+/* @theme custom */
+@import "default";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+section {
+  color: #656d76;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 20px;
+  line-height: 1.7;
+  padding-bottom: 1em;
+}
+
+section.title {
+  background-color: #5e80ad;
+  color: white;
+}
+
+section.title h1,
+section.title h3,
+section.title h6 {
+  color: white;
+}
+
+section.title footer {
+  color: #5e80ad;
+}
+
+section.title strong {
+  color: white;
+}
+  
+strong {
+  color: #4488cc;
+}
+
+em {
+  font-style: normal;
+  font-weight: bold;
+  background-color: #4488cc25;
+}
+
+h1,
+h2 {
+  color: #224466;
+}
+
+section mjx-container {
+  color: #5e80ad;
+}
+
+section table {
+  margin: 10px auto;
+}
+
+section table td {
+  text-align: center;
+}
+
+section table td img {
+  display: block;
+  margin: 0 auto;
+}
+
+section table th {
+  background-color: var(--background-theme);
+}
+
+header {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-bottom: 2px solid #5e80ad; /* 下線を追加 */
+}
+
+.two-blocks {
+  display: flex;
+}
+.block {
+  width: 50%;
+  padding: 10px;
+}
+.block + .block {
+  border-left: 1px solid #ccc;
+}
+.block2 {
+  width: 33.33%;
+  padding: 10px;
+}
+.block2 + .block2 {
+  border-left: 1px solid #ccc;
+}
+.grid-three-blocks {
+  display: flex;
+}
+.smalltxt {
+  display: flex;
+}
+.two-blocks .block marp-pre,
+.two-blocks .block pre,
+.two-blocks .block code,
+.grid-three-blocks .block2 marp-pre,
+.grid-three-blocks .block2 pre,
+.grid-three-blocks .block2 code,
+.smalltxt marp-pre,
+.smalltxt pre,
+.smalltxt code{
+  white-space: pre-wrap !important; /* 줄바꿈 강제 */
+  overflow-x: auto !important; /* 스크롤 추가 */
+  max-width: 100% !important; /* 너비 제한 */
+  word-break: break-word !important; /* 단어 단위로 줄바꿈 */
+  display: block !important; /* 블록 요소로 강제 */
+  font-size: 0.8em; /* 가독성 조정 */
+}
