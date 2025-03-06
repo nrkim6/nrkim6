@@ -21,6 +21,8 @@ _class: title
 # 프롬프트 엔지니어링 개요
 <br /><br />
 
+<aside>page: 2</aside>
+
 ---
 <!-- _header: 프롬프트 엔지니어링 개요 -->
 
@@ -37,6 +39,8 @@ _class: title
 ![bg right:30% height:200]()
 <!-- _footer: "" -->
 
+<aside>page: 3</aside>
+
 ---
 <!-- _header: 프롬프트 엔지니어링 개요 -->
 
@@ -50,7 +54,7 @@ _class: title
   - 개발 생산성 및 코드 품질에 직접적 영향
 <!-- _footer: "" -->
 
-
+<aside>page: 4</aside>
 
 ---
 <!-- _header: 프롬프트 엔지니어링 개요 -->
@@ -65,6 +69,8 @@ _class: title
 - 요구사항 분석 및 설계
 - 코드 리뷰
 <!-- _footer: "" -->
+
+<aside>page: 5</aside>
 
 ---
 <!-- _header: 프롬프트 엔지니어링 개요 -->
@@ -91,12 +97,16 @@ _class: title
 
 <!-- _footer: "" -->
 
+<aside>page: 6</aside>
+
 ---
 
 > 소프트웨어 개발을 위한 프롬프트 엔지니어링
 <br />
 # 소프트웨어 개발에서의 AI 도입 이점
 <br /><br />
+
+<aside>page: 7</aside>
 
 ---
 <!-- _header: 소프트웨어 개발에서의 AI 도입 이점 -->
@@ -110,6 +120,8 @@ _class: title
 - 팀의 효율성 향상 및 최종 제품의 품질 향상
 
 <!-- _footer: "" -->
+
+<aside>page: 8</aside>
 
 ---
 <!-- _header: 소프트웨어 개발에서의 AI 도입 이점 -->
@@ -137,6 +149,8 @@ _class: title
 
 <!-- _footer: "" -->
 
+<aside>page: 9</aside>
+
 ---
 <!-- _header: 소프트웨어 개발에서의 AI 도입 이점 -->
 
@@ -150,6 +164,140 @@ _class: title
 - **개발 환경 통합**: 도구 전환 비용과 학습 비용 감소
 
 <!-- _footer: "" -->
+
+<aside>page: 10</aside>
+
+---
+
+> 소프트웨어 개발을 위한 프롬프트 엔지니어링
+<br />
+# 효과적인 프롬프트 엔지니어링 기법
+<br /><br />
+
+<aside>page: 26>11</aside>
+
+---
+<!-- _header: 효과적인 프롬프트 엔지니어링 기법 -->
+
+## **Few-shot 프롬프팅 기법**
+
+- AI에게 몇 가지 예시를 제공하여 원하는 결과물의 형태를 학습시키는 방법
+- 예시를 통해 원하는 출력 형식과 스타일을 명확히 전달
+- 복잡한 패턴이나 형식을 요구하는 작업에 효과적
+- 모델이 예시로부터 패턴을 인식하고 유사한 결과물 생성 가능
+![bg right:37% height:470](https://i.imgur.com/if4d7ls.png)
+예시 : 
+```
+다음은 REST API 컨트롤러의 예시입니다:
+
+@RestController
+@RequestMapping("/api/users")
+public class UserController {
+   @GetMapping("/{id}")
+   public ResponseEntity<User> getUser(@PathVariable Long id) {
+       // 구현 내용
+   }
+}
+위 예시를 참고하여, 상품(Product) 정보를 관리하는 REST API 컨트롤러
+를 작성해주세요.
+```
+</div>
+<!-- _footer: "" -->
+
+<aside>page: 27>12</aside>
+
+---
+<!-- _header: 효과적인 프롬프트 엔지니어링 기법 -->
+
+## **단계별 프롬프팅 방법론**
+<br />
+
+- 복잡한 작업을 작은 단계로 나누어 AI가 순차적으로 처리하도록 하는 방법
+- 각 단계별 명확한 지시를 제공하여 정확도 향상
+- 복잡한 소프트웨어 개발 과정에 적합
+- 중간 결과를 검토하고 수정할 기회 제공
+
+![bg right:37% height:470](https://i.imgur.com/93j8qHe.png)
+예시:
+
+```
+1단계: 사용자 인증 기능을 위한 데이터 모델을 설계해주세요.
+2단계: 1단계에서 설계한 모델을 기반으로 사용자 등록 API를 구현해주세요.
+3단계: JWT를 사용한 로그인 기능을 추가해주세요.
+```
+
+<!-- _footer: "" -->
+
+<aside>page: 28>13</aside>
+
+---
+<!-- _header: 효과적인 프롬프트 엔지니어링 기법 -->
+
+## **템플릿 접근법 활용**
+<br />
+
+- 반복적으로 사용할 수 있는 프롬프트 템플릿을 개발하는 방법
+- 일관된 형식으로 AI에게 정보 제공
+- 필요한 정보를 체계적으로 구조화
+- 팀 내에서 표준화된 프롬프트 패턴 확립 가능
+
+예시:
+
+```
+[코드 목적]: <코드가 수행해야 할 기능>
+[기술 스택]: <사용할 프로그래밍 언어, 프레임워크, 라이브러리>
+[제약 조건]: <성능, 보안, 호환성 등의 제약 조건>
+[예상 출력]: <코드 실행 시 예상되는 결과>
+```
+
+<!-- _footer: "" -->
+
+<aside>page: 29>14</aside>
+
+---
+<!-- _header: 효과적인 프롬프트 엔지니어링 기법 -->
+
+## **소프트웨어 개발 생명주기별 프롬프트 활용**
+<br />
+
+- 개발 생명주기의 각 단계에 맞춘 특화된 프롬프트 패턴
+- 각 단계별 특성과 요구사항을 고려한 접근법
+- 개발 효율성과 품질 향상에 기여
+- 프로젝트 전체 과정에서의 일관된 AI 활용 가능
+
+<!-- _footer: "" -->
+
+<aside>page: 30>15</aside>
+
+---
+<!-- _header: 효과적인 프롬프트 엔지니어링 기법 -->
+
+## 개발 생명주기 초기 단계 활용
+
+- **요구사항 분석**: "다음 사용자 스토리에서 기능적 요구사항과 비기능적 요구사항을 분류해주세요"
+- **설계**: "다음 요구사항에 맞는 마이크로서비스 아키텍처를 설계해주세요"
+- **코드 생성**: "숫자의 팩토리얼을 계산하는 Python 함수를 생성해 주세요"
+<br />
+
+## 개발 생명주기 후기 단계 활용
+
+- **테스트**: "이 함수에 대한 단위 테스트를 작성해 주세요"
+- **디버깅**: "이 코드 조각의 버그를 찾아 수정해 주세요"
+- **문서화**: "이 코드 섹션에 대한 설명을 작성해 주세요"
+- **배포**: "다음 애플리케이션을 AWS에 배포하기 위한 CI/CD 파이프라인 설정 방법을 설명해주세요"
+
+<!-- _footer: "" -->
+
+<aside>page: 31>16</aside>
+
+---
+
+> 소프트웨어 개발을 위한 프롬프트 엔지니어링
+<br />
+# 소프트웨어 개발에서의 프롬프트 엔지니어링 활용 영역
+<br /><br />
+
+<aside>page: 12>17</aside>
 
 ---
 <!-- _header: 소프트웨어 개발에서의 프롬프트 엔지니어링 활용 영역 -->
@@ -171,12 +319,7 @@ Make it a web-based application written in Python.
 ```
 <!-- _footer: "" -->
 
----
-
-> 소프트웨어 개발을 위한 프롬프트 엔지니어링
-<br />
-# 소프트웨어 개발에서의 프롬프트 엔지니어링 활용 영역
-<br /><br />
+<aside>page: 11>18</aside>
 
 ---
 <!-- _header: 소프트웨어 개발에서의 프롬프트 엔지니어링 활용 영역 -->
@@ -192,8 +335,20 @@ Make it a web-based application written in Python.
 
 <!-- _footer: "" -->
 
+<aside>page: 13>19</aside>
+
+
 ---
-<!-- _header: 상황별 프롬프트 및 개선 예시 -->
+
+> 소프트웨어 개발을 위한 프롬프트 엔지니어링
+<br />
+# 상황별 프롬프트 및 개선 예제
+<br /><br />
+
+<aside>page: 20</aside>
+
+---
+<!-- _header: 상황별 프롬프트 예제 -->
 
 ## **예제 1: REST API Endpoint URL과 데이터모델 클래스 생성**
 
@@ -217,12 +372,12 @@ RESTful API 엔드포인트와 필요한 데이터
 - 주문상태는 결제대기, 결제완료, 배송준비, 배송중, 배송완료, 취소됨 상태 관리
 ```
 <aside>
-  page: 14
+  page: 14>20
 </aside>
 <!-- _footer: "" -->
 
 ---
-<!-- _header: 상황별 프롬프트 및 개선 예시 -->
+<!-- _header: 상황별 프롬프트 예제 -->
 
 ## **예제 2: 복잡한 JPA Query 작성**
   
@@ -250,8 +405,10 @@ JPA Query를 작성해주세요.
 
 <!-- _footer: "" -->
 
+<aside>page: 15>21</aside>
+
 ---
-<!-- _header: 상황별 프롬프트 및 개선 예시-->
+<!-- _header: 상황별 프롬프트 예제-->
 
 ## **예제 3: API 오류 처리 미들웨어 구현**
 
@@ -278,6 +435,8 @@ Handler를 구현해주세요.
 
 <!-- _footer: "" -->
 
+<aside>page: 16>22</aside>
+
 ---
 <!-- _header: 상황별 프롬프트 예시 -->
 
@@ -303,6 +462,8 @@ Handler를 구현해주세요.
 
 <!-- _footer: "" -->
 
+<aside>page: 17>23</aside>
+
 ---
 <!-- _header: 상황별 프롬프트 예시 -->
 
@@ -327,6 +488,8 @@ JUnit 5 단위 테스트를 작성해주세요.
 ```
 
 <!-- _footer: "" -->
+
+<aside>page: 18>24</aside>
 
 ---
 <!-- _header: 상황별 프롬프트 예시 -->
@@ -354,6 +517,8 @@ JUnit 5 단위 테스트를 작성해주세요.
 ```
 
 <!-- _footer: "" -->
+
+<aside>page: 19>25</aside>
 
 ---
 <!-- _header: 상황별 프롬프트 예시 -->
@@ -383,6 +548,8 @@ JUnit 5 단위 테스트를 작성해주세요.
 
 <!-- _footer: "" -->
 
+<aside>page: 20>26</aside>
+
 ---
 <!-- _header: 상황별 프롬프트 예시 -->
 
@@ -406,6 +573,8 @@ JUnit 5 단위 테스트를 작성해주세요.
 ```
 
 <!-- _footer: "" -->
+
+<aside>page: 21>27</aside>
 
 ---
 <!-- _header: 상황별 프롬프트 예시 -->
@@ -433,6 +602,8 @@ JUnit 5 단위 테스트를 작성해주세요.
 
 <!-- _footer: "" -->
 
+<aside>page: 22>28</aside>
+
 ---
 <!-- _header: 상황별 프롬프트 예시 -->
 
@@ -458,6 +629,8 @@ JUnit 5 단위 테스트를 작성해주세요.
 
 <!-- _footer: "" -->
 
+<aside>page: 23>29</aside>
+
 ---
 <!-- _header: 3.1.5 프롬프트 개선의 주요 패턴 -->
 
@@ -470,13 +643,15 @@ JUnit 5 단위 테스트를 작성해주세요.
 
 2. **요구사항 카테고리화**: 기능적 요구사항, 비기능적 요구사항, 기술적 요구사항 등으로 구분
 
-3. **구조 제공**: 참고할 코드 구조나 엔티티 관계를 제시하여 맥락 이해 지원
+3. **구조 제공**: 참고할 코드 구조나 엔티티 관계를 제시하여
 
 4. **구체적 예시 제공**: API 요청/응답 형식, 메소드 시그니처 등 구체적 형태 제시
 
 5. **제약조건 명시**: 성능, 보안, 호환성 등 고려해야 할 제약사항 명확화
 
 <!-- _footer: "" -->
+
+<aside>page: 24>30</aside>
 
 ---
 <!-- _header: 소프트웨어 개발에서의 프롬프트 엔지니어링 활용 영역 -->
@@ -530,116 +705,7 @@ Google 스타일 가이드를 따라주세요.
 
 <!-- _footer: "" -->
 
----
-
-> 소프트웨어 개발을 위한 프롬프트 엔지니어링
-<br />
-# 효과적인 프롬프트 엔지니어링 기법
-<br /><br />
-
----
-<!-- _header: 효과적인 프롬프트 엔지니어링 기법 -->
-
-## **Few-shot 프롬프팅 기법**
-
-- AI에게 몇 가지 예시를 제공하여 원하는 결과물의 형태를 학습시키는 방법
-- 예시를 통해 원하는 출력 형식과 스타일을 명확히 전달
-- 복잡한 패턴이나 형식을 요구하는 작업에 효과적
-- 모델이 예시로부터 패턴을 인식하고 유사한 결과물 생성 가능
-![bg right:37% height:470](https://i.imgur.com/if4d7ls.png)
-예시 : 
-```
-다음은 REST API 컨트롤러의 예시입니다:
-
-@RestController
-@RequestMapping("/api/users")
-public class UserController {
-   @GetMapping("/{id}")
-   public ResponseEntity<User> getUser(@PathVariable Long id) {
-       // 구현 내용
-   }
-}
-위 예시를 참고하여, 상품(Product) 정보를 관리하는 REST API 컨트롤러
-를 작성해주세요.
-```
-</div>
-<!-- _footer: "" -->
-
----
-<!-- _header: 효과적인 프롬프트 엔지니어링 기법 -->
-
-## **단계별 프롬프팅 방법론**
-<br />
-
-- 복잡한 작업을 작은 단계로 나누어 AI가 순차적으로 처리하도록 하는 방법
-- 각 단계별 명확한 지시를 제공하여 정확도 향상
-- 복잡한 소프트웨어 개발 과정에 적합
-- 중간 결과를 검토하고 수정할 기회 제공
-
-![bg right:37% height:470](https://i.imgur.com/93j8qHe.png)
-예시:
-
-```
-1단계: 사용자 인증 기능을 위한 데이터 모델을 설계해주세요.
-2단계: 1단계에서 설계한 모델을 기반으로 사용자 등록 API를 구현해주세요.
-3단계: JWT를 사용한 로그인 기능을 추가해주세요.
-```
-
-<!-- _footer: "" -->
-
----
-<!-- _header: 효과적인 프롬프트 엔지니어링 기법 -->
-
-## **템플릿 접근법 활용**
-<br />
-
-- 반복적으로 사용할 수 있는 프롬프트 템플릿을 개발하는 방법
-- 일관된 형식으로 AI에게 정보 제공
-- 필요한 정보를 체계적으로 구조화
-- 팀 내에서 표준화된 프롬프트 패턴 확립 가능
-
-예시:
-
-```
-[코드 목적]: <코드가 수행해야 할 기능>
-[기술 스택]: <사용할 프로그래밍 언어, 프레임워크, 라이브러리>
-[제약 조건]: <성능, 보안, 호환성 등의 제약 조건>
-[예상 출력]: <코드 실행 시 예상되는 결과>
-```
-
-<!-- _footer: "" -->
-
----
-<!-- _header: 효과적인 프롬프트 엔지니어링 기법 -->
-
-## **소프트웨어 개발 생명주기별 프롬프트 활용**
-<br />
-
-- 개발 생명주기의 각 단계에 맞춘 특화된 프롬프트 패턴
-- 각 단계별 특성과 요구사항을 고려한 접근법
-- 개발 효율성과 품질 향상에 기여
-- 프로젝트 전체 과정에서의 일관된 AI 활용 가능
-
-<!-- _footer: "" -->
-
----
-<!-- _header: 효과적인 프롬프트 엔지니어링 기법 -->
-
-## 개발 생명주기 초기 단계 활용
-
-- **요구사항 분석**: "다음 사용자 스토리에서 기능적 요구사항과 비기능적 요구사항을 분류해주세요"
-- **설계**: "다음 요구사항에 맞는 마이크로서비스 아키텍처를 설계해주세요"
-- **코드 생성**: "숫자의 팩토리얼을 계산하는 Python 함수를 생성해 주세요"
-<br />
-
-## 개발 생명주기 후기 단계 활용
-
-- **테스트**: "이 함수에 대한 단위 테스트를 작성해 주세요"
-- **디버깅**: "이 코드 조각의 버그를 찾아 수정해 주세요"
-- **문서화**: "이 코드 섹션에 대한 설명을 작성해 주세요"
-- **배포**: "다음 애플리케이션을 AWS에 배포하기 위한 CI/CD 파이프라인 설정 방법을 설명해주세요"
-
-<!-- _footer: "" -->
+<aside>page: 25>31</aside>
 
 ---
 
@@ -647,6 +713,8 @@ public class UserController {
 <br />
 # 도입 사례
 <br /><br />
+
+<aside>page: 32</aside>
 
 ---
 <!-- _header: 도입 사례 -->
@@ -666,6 +734,8 @@ public class UserController {
   - 코드 생성, 분석, 디버깅, 최적화 지원
   - 다양한 프로그래밍 언어 간 번역 기능
 <!-- _footer: "" -->
+
+<aside>page: 33</aside>
 
 ---
 <!-- _header: 도입 사례 -->
@@ -688,6 +758,8 @@ def validate_user_input(user_input):
 
 <!-- _footer: "" -->
 
+<aside>page: 34</aside>
+
 ---
 <!-- _header: 도입 사례 -->
 
@@ -702,6 +774,8 @@ def validate_user_input(user_input):
 - **고객 지원 자동화**: AI 에이전트로 문의 자동 분류 및 응답
   - Formula 1: 서비스 응답 속도 80% 단축
 <!-- _footer: "" -->
+
+<aside>page: 35</aside>
 
 ---
 <!-- _header: 도입 사례 -->
@@ -723,6 +797,8 @@ def validate_user_input(user_input):
   - API 문서 작성, 코드 리뷰, 버그 수정 지원
 <!-- _footer: "" -->
 
+<aside>page: 36</aside>
+
 ---
 <!-- _header: 도입 사례 -->
 
@@ -738,6 +814,8 @@ def validate_user_input(user_input):
 - RESTful API로 문장 생성, 튜닝, 스킬 트레이너 기능 제공
 - 복잡한 코딩 지식 없이도 AI 모델 구축 및 적용 가능
 <!-- _footer: "" -->
+
+<aside>page: 37</aside>
 
 ---
 <!-- _header: 도입 사례 -->
@@ -757,6 +835,8 @@ def validate_user_input(user_input):
   - Tesla 사례: 센서 데이터 처리 아키텍처 최적화
   - 데이터 처리 효율 30% 향상
 <!-- _footer: "" -->
+
+<aside>page: 38</aside>
 
 ---
 <!-- _header: 도입 사례 -->
@@ -779,6 +859,8 @@ def validate_user_input(user_input):
   - 운영 환경 오류 35% 감소
 <!-- _footer: "" -->
 
+<aside>page: 39</aside>
+
 ---
 <!-- _header: 도입 사례 -->
 
@@ -799,12 +881,17 @@ def validate_user_input(user_input):
   - IBM Watson: 레거시 시스템 현대화 프로젝트 기간 30% 단축
   - 비용 25% 절감
 <!-- _footer: "" -->
+
+<aside>page: 40</aside>
+
 ---
 
 > 소프트웨어 개발을 위한 프롬프트 엔지니어링
 <br />
 # 프롬프트 엔지니어링 도구 및 프레임워크
 <br /><br />
+
+<aside>page: 41</aside>
 
 ---
 <!-- _header: 프롬프트 엔지니어링 도구 및 프레임워크 -->
@@ -818,6 +905,8 @@ def validate_user_input(user_input):
 - 프롬프트 최적화 및 성능 측정 지원
 
 <!-- _footer: "" -->
+
+<aside>page: 42</aside>
 
 ---
 <!-- _header: 프롬프트 엔지니어링 도구 및 프레임워크 -->
@@ -834,6 +923,8 @@ def validate_user_input(user_input):
 
 
 <!-- _footer: "" -->
+
+<aside>page: 43</aside>
 
 ---
 <!-- _header: 프롬프트 엔지니어링 도구 및 프레임워크 -->
@@ -867,6 +958,8 @@ response = model.predict_messages(messages)
 
 <!-- _footer: "" -->
 
+<aside>page: 44</aside>
+
 ---
 <!-- _header: 프롬프트 엔지니어링 도구 및 프레임워크 -->
 
@@ -881,6 +974,8 @@ response = model.predict_messages(messages)
   - **팀 협업**: 팀 내에서 효과적인 프롬프트 공유 및 재사용
 
 <!-- _footer: "" -->
+
+<aside>page: 45</aside>
 
 ---
 <!-- _header: 프롬프트 엔지니어링 도구 및 프레임워크 -->
@@ -897,6 +992,7 @@ response = model.predict_messages(messages)
 
 
 <!-- _footer: "" -->
+<aside>page: 46</aside>
 
 ---
 <!-- _header: 프롬프트 엔지니어링 도구 및 프레임워크 -->
@@ -912,6 +1008,7 @@ response = model.predict_messages(messages)
   - **문서 생성**: 코드를 분석하여 문서 자동 생성
 
 <!-- _footer: "" -->
+<aside>page: 47</aside>
 
 ---
 <!-- _header: 프롬프트 엔지니어링 도구 및 프레임워크 -->
@@ -936,6 +1033,7 @@ var result = await kernel.RunAsync("리팩토링이 필요한 함수",
 ```
 
 <!-- _footer: "" -->
+<aside>page: 48</aside>
 
 ---
 
@@ -943,6 +1041,8 @@ var result = await kernel.RunAsync("리팩토링이 필요한 함수",
 <br />
 # 교육 및 학습 자원
 <br /><br />
+
+<aside>page: 49</aside>
 
 ---
 <!-- _header: 교육 및 학습 자원 -->
@@ -965,6 +1065,7 @@ var result = await kernel.RunAsync("리팩토링이 필요한 함수",
 
 
 <!-- _footer: "" -->
+<aside>page: 50</aside>
 
 ---
 <!-- _header: 교육 및 학습 자원 -->
@@ -982,10 +1083,10 @@ var result = await kernel.RunAsync("리팩토링이 필요한 함수",
   - Anthropic, Cohere, Microsoft, Google AI 등 주요 AI 기업 블로그
 
 <!-- _footer: "" -->
+<aside>page: 51</aside>
 
 ---
 <!-- _header: 교육 및 학습 자원 -->
-<div class="two-blocks"><div class="block">
 
 ## **프롬프트 엔지니어링 단계별 구현 가이드** 
 
@@ -1019,6 +1120,7 @@ var result = await kernel.RunAsync("리팩토링이 필요한 함수",
    - 지속적인 개선 체계 마련
 </div>
 <!-- _footer: "" -->
+<aside>page: 52</aside>
 
 ---
 <!-- _header: 교육 및 학습 자원 -->
@@ -1028,13 +1130,14 @@ var result = await kernel.RunAsync("리팩토링이 필요한 함수",
 
 ### Microsoft의 AI 역량 개발 프로그램
 
-- **AI 기초 역량 확보**: 전 직원 대상 AI 리터러시 교육
-- **역할별 특화 교육**: 개발자, PM, 디자이너별 맞춤형 과정
-- **프로젝트 기반 학습**: 실제 업무에 AI 기술 적용 실습
-- **공유 문화 조성**: AI Day, 내부 해커톤 등 경험 공유 행사
-- **결과**: 직원 생산성 35-40% 향상, 제품 혁신 가속화
+  - **AI 기초 역량 확보**: 전 직원 대상 AI 리터러시 교육
+  - **역할별 특화 교육**: 개발자, PM, 디자이너별 맞춤형 과정
+  - **프로젝트 기반 학습**: 실제 업무에 AI 기술 적용 실습
+  - **공유 문화 조성**: AI Day, 내부 해커톤 등 경험 공유 행사
+  - **결과**: 직원 생산성 35-40% 향상, 제품 혁신 가속화
 
 <!-- _footer: "" -->
+<aside>page: 53</aside>
 
 ---
 <!-- _header: 교육 및 학습 자원 -->
@@ -1052,6 +1155,7 @@ var result = await kernel.RunAsync("리팩토링이 필요한 함수",
   - AI DevDay, OpenAI DevDay 등 행사 자료
 
 <!-- _footer: "" -->
+<aside>page: 54</aside>
 
 ---
 <!-- _header: 교육 및 학습 자원 -->
@@ -1067,6 +1171,7 @@ var result = await kernel.RunAsync("리팩토링이 필요한 함수",
 - **협업 학습**: 팀 내 지식 공유 및 공동 프롬프트 개발
 
 <!-- _footer: "" -->
+<aside>page: 55</aside>
 
 ---
 <!-- _header: 결론 -->
@@ -1096,6 +1201,7 @@ var result = await kernel.RunAsync("리팩토링이 필요한 함수",
 </div></div>
 
 <!-- _footer: "" -->
+<aside>page: 56</aside>
 
 ---
 <!-- _header: 결론 -->
@@ -1109,6 +1215,7 @@ var result = await kernel.RunAsync("리팩토링이 필요한 함수",
 - **창의적 문제 해결, 아키텍처 설계, 사용자 경험** 등에서 인간 개발자의 역할 중요성 증가
 
 <!-- _footer: "" -->
+<aside>page: 57</aside>
 
 ---
 <!-- _header: 결론 -->
@@ -1121,3 +1228,5 @@ var result = await kernel.RunAsync("리팩토링이 필요한 함수",
 - **지속적 실험**: 다양한 AI 도구와 프롬프트 패턴의 효과성 실험 및 검증
 - **산학협력**: 연구기관과 협력하여 최신 AI 기술 동향 파악 및 적용
 - **혁신 문화**: 실패를 두려워하지 않는 실험 문화와 지속적 학습 환경 조성
+
+<aside>page: 58</aside>
