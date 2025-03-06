@@ -9,10 +9,11 @@ paginate: true
 _class: title
 --->
 > # 소프트웨어 개발을 위한 프롬프트 엔지니어링
->
-### AI & Core Tech LAB
->
 > 
+### AI & Core Tech LAB
+
+<aside>page: 1</aside>
+
 ---
 
 > 소프트웨어 개발을 위한 프롬프트 엔지니어링
@@ -49,6 +50,8 @@ _class: title
   - 개발 생산성 및 코드 품질에 직접적 영향
 <!-- _footer: "" -->
 
+
+
 ---
 <!-- _header: 프롬프트 엔지니어링 개요 -->
 
@@ -66,6 +69,10 @@ _class: title
 ---
 <!-- _header: 프롬프트 엔지니어링 개요 -->
 
+<div class="two-blocks">
+<div class="block">
+
+
 ## 프롬프트 엔지니어링의 기본 원칙
 <br />
 
@@ -74,6 +81,13 @@ _class: title
 - **맥락 제공**: 작업 배경과 목적 정보 제공
 - **제약 조건 명시**: 기술적/기능적 요구사항 명시
 - **예시 제공**: 출력 형태 예시 포함
+</div>  
+
+<div class="block">  
+
+![](https://i.imgur.com/sKOgWU8.png)
+</div>  
+</div>
 
 <!-- _footer: "" -->
 
@@ -190,7 +204,7 @@ Make it a web-based application written in Python.
 조회, 수정, 취소 기능이 필요합니다."
 ```
 
-**개선된 프롬프트**:
+**프롬프트 개선 후**:
 ```
 "Spring Boot 2.7, Java 11, JPA를 사용하여 온라인 쇼핑몰의 주문 관리 시스템을 위한
 RESTful API 엔드포인트와 필요한 데이터 
@@ -202,7 +216,9 @@ RESTful API 엔드포인트와 필요한 데이터
 - 주문상품은 상품ID, 수량, 단가 정보를 포함
 - 주문상태는 결제대기, 결제완료, 배송준비, 배송중, 배송완료, 취소됨 상태 관리
 ```
-
+<aside>
+  page: 14
+</aside>
 <!-- _footer: "" -->
 
 ---
@@ -216,7 +232,7 @@ RESTful API 엔드포인트와 필요한 데이터
 , 금액 범위로 필터링이 가능해야 합니다."
 ```
 
-**개선된 프롬프트**:
+**프롬프트 개선 후**:
 ```
 "Spring Boot 2.7과 Spring Data JPA를 사용하여 사용자의 주문 내역을 조회하는 복잡한 
 JPA Query를 작성해주세요.
@@ -246,7 +262,7 @@ JPA Query를 작성해주세요.
 핸들러를 Spring Boot에서 구현해주세요."
 ```
 
-**개선된 프롬프트**:
+**프롬프트 개선 후**:
 ```
 "Spring Boot 3.0 애플리케이션에서 REST API의 전역 예외 처리를 위한 GlobalException
 Handler를 구현해주세요.
@@ -464,23 +480,26 @@ JUnit 5 단위 테스트를 작성해주세요.
 
 ---
 <!-- _header: 소프트웨어 개발에서의 프롬프트 엔지니어링 활용 영역 -->
-<div class="grid-three-blocks">
-  <div class="block2">
+<div class="grid-three-blocks"> <div class="block2" style="margin:2px; font-size:90%">
     
 ## 버그 탐지 및 디버깅 활용
 
-AI 모델은 다양한 유형의 버그와 보안 취약점을 검출할 수 있음:
+다양한 유형의 버그/보안 취약점 검출 가능
+<br />
+
 ```
-다음 코드에서 발생할 수 있는 버그와 보안 취약점을 찾고,
-수정 방법을 제안해주세요:
+다음 코드에서 발생할 수 있는 버그와 보안 취약점을 찾
+고, 수정 방법을 제안해주세요:
 [코드 첨부]
 특히 SQL 인젝션, XSS 취약점, 메모리 누수 가능성에 주목해주세요.
 ```
 </div>
-  <div class="block2">
+  <div class="block2" style="margin:2px; font-size:90%">
 
 <h2>테스트 코드 생성 접근법</h2>
-테스트 케이스 자동 생성으로 테스트 커버리지 향상:
+Testcase 자동 생성- 테스트 커버리지 향상
+<br />
+<br />
 
 ```
 다음 JavaScript 함수에 대한 Jest 테스트 코드를 작성해주세요:
@@ -488,19 +507,22 @@ AI 모델은 다양한 유형의 버그와 보안 취약점을 검출할 수 있
 - 경계값 테스트
 - 예외 상황 테스트
 - 모킹이 필요한 경우 예시 포함
+
 [함수 코드 첨부]
 ```
 </div>
-  <div class="block2">
+  <div class="block2" style="margin:2px; font-size:90%">
 
 <h2>문서화 지원</h2>
 
-코드 문서화 자동화로 일관성과 완성도 향상:
+코드 문서화 자동화 - 일관성, 완성도 향상
+<br />
 
 ```
 다음 Python 함수에 대한 상세한 docstring을 작성해주세요.
 파라미터, 반환값, 예외처리, 사용 예시를 포함해야 합니다.
 Google 스타일 가이드를 따라주세요.
+
 [함수 코드 첨부]
 ```
 </div>
@@ -524,7 +546,7 @@ Google 스타일 가이드를 따라주세요.
 - 예시를 통해 원하는 출력 형식과 스타일을 명확히 전달
 - 복잡한 패턴이나 형식을 요구하는 작업에 효과적
 - 모델이 예시로부터 패턴을 인식하고 유사한 결과물 생성 가능
-
+![bg right:37% height:470](https://i.imgur.com/if4d7ls.png)
 예시 : 
 ```
 다음은 REST API 컨트롤러의 예시입니다:
@@ -532,15 +554,15 @@ Google 스타일 가이드를 따라주세요.
 @RestController
 @RequestMapping("/api/users")
 public class UserController {
-    @GetMapping("/{id}")
-    public ResponseEntity<User> getUser(@PathVariable Long id) {
-        // 구현 내용
-    }
+   @GetMapping("/{id}")
+   public ResponseEntity<User> getUser(@PathVariable Long id) {
+       // 구현 내용
+   }
 }
-
-위 예시를 참고하여, 상품(Product) 정보를 관리하는 REST API 컨트롤러를 작성해주세요.
+위 예시를 참고하여, 상품(Product) 정보를 관리하는 REST API 컨트롤러
+를 작성해주세요.
 ```
-
+</div>
 <!-- _footer: "" -->
 
 ---
@@ -554,6 +576,7 @@ public class UserController {
 - 복잡한 소프트웨어 개발 과정에 적합
 - 중간 결과를 검토하고 수정할 기회 제공
 
+![bg right:37% height:470](https://i.imgur.com/93j8qHe.png)
 예시:
 
 ```

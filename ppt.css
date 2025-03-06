@@ -113,3 +113,18 @@ header {
   display: block !important; /* 블록 요소로 강제 */
   font-size: 0.8em; /* 가독성 조정 */
 }
+aside::before { 
+    content: "Speaker notes:";
+    font-weight: bold;
+}
+aside {
+    width: 850px;
+    border: 1px black solid;
+    padding: 5px 5px 5px 5px;
+    font-size: 12px;
+    line-height: 15px;
+    background-color: #EFEFEF;
+    display: none;
+    position: absolute;
+    bottom: 15px;
+}
