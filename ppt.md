@@ -174,7 +174,7 @@ _class: title
 # 효과적인 프롬프트 엔지니어링 기법
 <br /><br />
 
-<aside>page: 26>11</aside>
+<aside>page: 11</aside>
 
 ---
 <!-- _header: 효과적인 프롬프트 엔지니어링 기법 -->
@@ -204,7 +204,7 @@ public class UserController {
 </div>
 <!-- _footer: "" -->
 
-<aside>page: 27>12</aside>
+<aside>page: 12</aside>
 
 ---
 <!-- _header: 효과적인 프롬프트 엔지니어링 기법 -->
@@ -228,7 +228,7 @@ public class UserController {
 
 <!-- _footer: "" -->
 
-<aside>page: 28>13</aside>
+<aside>page: 13</aside>
 
 ---
 <!-- _header: 효과적인 프롬프트 엔지니어링 기법 -->
@@ -252,7 +252,7 @@ public class UserController {
 
 <!-- _footer: "" -->
 
-<aside>page: 29>14</aside>
+<aside>page: 14</aside>
 
 ---
 <!-- _header: 효과적인 프롬프트 엔지니어링 기법 -->
@@ -267,7 +267,7 @@ public class UserController {
 
 <!-- _footer: "" -->
 
-<aside>page: 30>15</aside>
+<aside>page: 15</aside>
 
 ---
 <!-- _header: 효과적인 프롬프트 엔지니어링 기법 -->
@@ -288,7 +288,7 @@ public class UserController {
 
 <!-- _footer: "" -->
 
-<aside>page: 31>16</aside>
+<aside>page: 16</aside>
 
 ---
 
@@ -297,7 +297,7 @@ public class UserController {
 # 소프트웨어 개발에서의 프롬프트 엔지니어링 활용 영역
 <br /><br />
 
-<aside>page: 12>17</aside>
+<aside>page: 17</aside>
 
 ---
 <!-- _header: 소프트웨어 개발에서의 프롬프트 엔지니어링 활용 영역 -->
@@ -319,7 +319,7 @@ Make it a web-based application written in Python.
 ```
 <!-- _footer: "" -->
 
-<aside>page: 11>18</aside>
+<aside>page: 18</aside>
 
 ---
 <!-- _header: 소프트웨어 개발에서의 프롬프트 엔지니어링 활용 영역 -->
@@ -335,304 +335,11 @@ Make it a web-based application written in Python.
 
 <!-- _footer: "" -->
 
-<aside>page: 13>19</aside>
+<aside>page: 19</aside>
 
 
 ---
-
-> 소프트웨어 개발을 위한 프롬프트 엔지니어링
-<br />
-# 상황별 프롬프트 및 개선 예제
-<br /><br />
-
-<aside>page: 20</aside>
-
----
-<!-- _header: 상황별 프롬프트 예제 -->
-
-## **예제 1: REST API Endpoint URL과 데이터모델 클래스 생성**
-
-**프롬프트**:
-```
-"온라인 쇼핑몰의 주문 관리 시스템을 위한 RESTful API 엔드포인트와 
-필요한 데이터 모델 클래스를 설계해주세요. 주문 생성, 
-조회, 수정, 취소 기능이 필요합니다."
-```
-
-**프롬프트 개선 후**:
-```
-"Spring Boot 2.7, Java 11, JPA를 사용하여 온라인 쇼핑몰의 주문 관리 시스템을 위한
-RESTful API 엔드포인트와 필요한 데이터 
-모델 클래스를 설계해주세요.
-
-요구사항:
-- 주문 생성, 조회, 수정, 취소 기능 구현
-- 주문은 주문ID, 고객정보, 주문상품목록, 총금액, 주문상태, 주문일시 정보를 포함
-- 주문상품은 상품ID, 수량, 단가 정보를 포함
-- 주문상태는 결제대기, 결제완료, 배송준비, 배송중, 배송완료, 취소됨 상태 관리
-```
-<aside>
-  page: 14>20
-</aside>
-<!-- _footer: "" -->
-
----
-<!-- _header: 상황별 프롬프트 예제 -->
-
-## **예제 2: 복잡한 JPA Query 작성**
-  
-**프롬프트**:
-```
-"사용자의 주문 내역을 조회하는 복잡한 JPA Query를 작성해주세요. 주문 상태, 날짜 범위
-, 금액 범위로 필터링이 가능해야 합니다."
-```
-
-**프롬프트 개선 후**:
-```
-"Spring Boot 2.7과 Spring Data JPA를 사용하여 사용자의 주문 내역을 조회하는 복잡한 
-JPA Query를 작성해주세요.
-
-기술 요구사항:
-- QueryDSL 또는 JPQL을 사용한 구현
-- 다음 필터링 조건 지원: 주문 상태, 주문 날짜 범위, 총 금액 범위
-- 페이징 처리(페이지 번호, 페이지 크기)
-- 정렬 기능(주문일, 금액, 상태 기준)
-
-성능 요구사항:
-- N+1 문제 방지를 위한 fetch join 사용
-- 인덱스 활용을 고려한 쿼리 설계
-```
-
-<!-- _footer: "" -->
-
-<aside>page: 15>21</aside>
-
----
-<!-- _header: 상황별 프롬프트 예제-->
-
-## **예제 3: API 오류 처리 미들웨어 구현**
-
-**프롬프트**:
-```
-"REST API에서 발생할 수 있는 다양한 예외(유효성 검증 오류, 리소스 없음, 인증 오류, 
-서버 오류)를 처리하는 글로벌 예외 
-핸들러를 Spring Boot에서 구현해주세요."
-```
-
-**프롬프트 개선 후**:
-```
-"Spring Boot 3.0 애플리케이션에서 REST API의 전역 예외 처리를 위한 GlobalException
-Handler를 구현해주세요.
-
-요구사항:
-- @ControllerAdvice 또는 @RestControllerAdvice 사용
-- 다음 예외 유형별 처리 로직 구현:
-  1. ValidationException: 요청 데이터 유효성 검증 실패 (400 Bad Request)
-  2. ResourceNotFoundException: 요청한 리소스가 존재하지 않음 (404 Not Found)
-  3. UnauthorizedException: 인증 실패 (401 Unauthorized)
-  4. ForbiddenException: 권한 부족 (403 Forbidden)
-```
-
-<!-- _footer: "" -->
-
-<aside>page: 16>22</aside>
-
----
-<!-- _header: 상황별 프롬프트 예시 -->
-
-## **예제 4: 데이터베이스 트랜잭션 관리**
-
-**프롬프트**:
-```
-"Spring Boot 2.7과 Spring Data JPA를 사용하여 은행 계좌 간 이체 서비스의 트랜잭션 
-관리 로직을 구현해주세요.
-
-비즈니스 요구사항:
-- 출금 계좌에서 금액 차감
-- 입금 계좌에 금액 추가
-- 거래 내역 기록
-- 모든 작업이 하나의 트랜잭션으로 처리되어야 함
-
-기술 요구사항:
-- @Transactional 어노테이션을 사용한 선언적 트랜잭션 관리
-- 롤백 조건 명시 (잔액 부족, 계좌 존재하지 않음 등)
-- 트랜잭션 격리 수준 설정 (READ_COMMITTED 이상)
-- 낙관적 락(Optimistic Locking)을 사용한 동시성 제어
-```
-
-<!-- _footer: "" -->
-
-<aside>page: 17>23</aside>
-
----
-<!-- _header: 상황별 프롬프트 예시 -->
-
-## **예제 5: 단위 테스트 작성**
-
-**프롬프트**:
-```
-"Spring Boot 3.0 프로젝트에서 사용자 등록 서비스(UserRegistrationService)에 대한 
-JUnit 5 단위 테스트를 작성해주세요.
-
-테스트 요구사항:
-- Mockito를 사용하여 UserRepository, PasswordEncoder, EmailService 의존성 모킹
-- 다음 시나리오에 대한 테스트 케이스 작성:
-  1. 성공적인 사용자 등록
-  2. 이메일 중복 시 예외 발생
-  3. 유효하지 않은 비밀번호 입력 시 예외 발생
-  4. 이메일 서비스 실패 시 대응
-
-추가 요구사항:
-- @ExtendWith(MockitoExtension.class) 사용
-- BDDMockito 스타일 구문 사용(given/when/then)
-```
-
-<!-- _footer: "" -->
-
-<aside>page: 18>24</aside>
-
----
-<!-- _header: 상황별 프롬프트 예시 -->
-
-## **예제 6: 보안 취약점 방어 코드 작성**
-
-**프롬프트**:
-```
-"Spring Boot 3.0과 Spring Security 6.0을 사용하여 사용자 입력을 받는 REST API 엔드
-포인트에서 다음 보안 취약점을 방어하는 
-코드를 구현해주세요:
-
-1. SQL 인젝션 방어:
-   - JPA/Hibernate의 parameterized 쿼리 사용 방법
-   - 사용자 입력에 대한 유효성 검증
-
-2. XSS(Cross-Site Scripting) 방어:
-   - 입력 데이터 이스케이핑
-   - Content-Security-Policy 헤더 설정
-   - HttpOnly 및 Secure 쿠키 설정
-
-3. CSRF(Cross-Site Request Forgery) 방어:
-   - Spring Security의 CSRF 보호 기능 구성
-   - CSRF 토큰 관리
-```
-
-<!-- _footer: "" -->
-
-<aside>page: 19>25</aside>
-
----
-<!-- _header: 상황별 프롬프트 예시 -->
-
-## **예제 7: 캐시 구현**
-
-**프롬프트**:
-```
-"Spring Boot 2.7과 Spring Cache, Redis를 사용하여 자주 조회되는 상품 정보를 위한 캐
-싱 시스템을 구현해주세요.
-
-요구사항:
-1. 캐시 설정:
-   - Redis를 캐시 저장소로 사용
-   - 상품 정보 캐시의 TTL은 10분으로 설정
-   - 카테고리별 상품 목록 캐시의 TTL은 30분으로 설정
-
-2. 캐시 적용 대상:
-   - 단일 상품 조회 (findById)
-   - 카테고리별 상품 목록 조회 (findByCategory)
-   - 인기 상품 목록 조회 (findTopProducts)
-
-3. 캐시 무효화 전략:
-   - 상품 정보 업데이트 시 관련 캐시 자동 갱신
-   - 일괄 가격 변경 등 대량 업데이트 시 카테고리 캐시 삭제
-```
-
-<!-- _footer: "" -->
-
-<aside>page: 20>26</aside>
-
----
-<!-- _header: 상황별 프롬프트 예시 -->
-
-## **예제 8: 비동기 작업 처리 서비스 구현**
-
-**프롬프트**:
-```
-"Spring Boot 2.7과 Spring Async를 사용하여 대용량 파일 업로드 및 처리를 비동기적으
-로 처리하는 서비스를 구현해주세요.
-
-기능 요구사항:
-1. 파일 업로드 처리:
-   - 사용자가 대용량 파일(CSV, Excel) 업로드
-   - 비동기로 파일 처리 작업 시작
-   - 작업 ID 즉시 반환하여 사용자가 진행 상황 추적 가능
-
-2. 진행 상태 추적:
-   - 작업 ID로 현재 진행 상태 조회 가능 (대기중, 처리중, 완료, 실패)
-   - 처리된 레코드 수 및 총 레코드 수 정보 제공
-   - 예상 완료 시간 계산
-```
-
-<!-- _footer: "" -->
-
-<aside>page: 21>27</aside>
-
----
-<!-- _header: 상황별 프롬프트 예시 -->
-
-## **예제 9: 메시지 큐 통합**
-
-**프롬프트**:
-```
-"Spring Boot 2.7과 Spring AMQP를 사용하여 주문 처리 시스템에 RabbitMQ 기반 이벤트 
-처리 아키텍처를 구현해주세요.
-
-시스템 요구사항:
-1. 이벤트 유형:
-   - OrderCreatedEvent: 주문 생성 시 발생
-   - PaymentConfirmedEvent: 결제 확인 시 발생
-   - ShippingProcessedEvent: 배송 처리 시 발생
-   - OrderCompletedEvent: 주문 완료 시 발생
-
-2. 메시지 처리 요구사항:
-   - 메시지 지속성 보장(persistent messages)
-   - 메시지 수신 확인(acknowledgments)
-   - 데드 레터 큐 설정
-   - 실패한 메시지의 재시도 정책
-```
-
-<!-- _footer: "" -->
-
-<aside>page: 22>28</aside>
-
----
-<!-- _header: 상황별 프롬프트 예시 -->
-
-## **예제 10: 도메인 주도 설계(DDD) 구현**
-
-**프롬프트**:
-```
-"Spring Boot 3.0과 Java 17을 사용하여 전자상거래 시스템의 주문 처리 도메인을 DDD(도
-메인 주도 설계) 원칙에 따라 구현해주
-세요.
-
-도메인 모델 요구사항:
-1. 애그리게이트(Aggregate):
-   - Order 애그리게이트: 주문 정보의 일관성과 트랜잭션 경계 관리
-   - Product 애그리게이트: 상품 정보와 재고 관리
-   - Customer 애그리게이트: 고객 정보 및 주소 관리
-
-2. 엔티티(Entity):
-   - Order: 주문의 핵심 엔티티, ID로 식별
-   - OrderLine: 주문 내 각 상품 항목
-   - Product: 상품 정보
-```
-
-<!-- _footer: "" -->
-
-<aside>page: 23>29</aside>
-
----
-<!-- _header: 3.1.5 프롬프트 개선의 주요 패턴 -->
+<!-- _header: 프롬프트 개선의 주요 패턴 -->
 
 ## **효과적인 프롬프트 패턴**
 <br />
@@ -651,7 +358,7 @@ JUnit 5 단위 테스트를 작성해주세요.
 
 <!-- _footer: "" -->
 
-<aside>page: 24>30</aside>
+<aside>page: 20</aside>
 
 ---
 <!-- _header: 소프트웨어 개발에서의 프롬프트 엔지니어링 활용 영역 -->
@@ -705,7 +412,300 @@ Google 스타일 가이드를 따라주세요.
 
 <!-- _footer: "" -->
 
-<aside>page: 25>31</aside>
+<aside>page: 21</aside>
+
+---
+
+
+> 소프트웨어 개발을 위한 프롬프트 엔지니어링
+<br />
+# 상황별 프롬프트 예제
+<br /><br />
+
+<aside>page: 22</aside>
+
+---
+
+<!-- _header: 상황별 프롬프트 예제 -->
+
+## **예제 1: REST API Endpoint URL과 데이터모델 클래스 생성**
+
+**프롬프트 개선 예시**:
+```
+"온라인 쇼핑몰의 주문 관리 시스템을 위한 RESTful API 엔드포인트와 
+필요한 데이터 모델 클래스를 설계해주세요. 주문 생성, 
+조회, 수정, 취소 기능이 필요합니다."
+```
+
+**개선 후**:
+```
+"Spring Boot 2.7, Java 11, JPA를 사용하여 온라인 쇼핑몰의 주문 관리 시스템을 위한
+RESTful API 엔드포인트와 필요한 데이터 
+모델 클래스를 설계해주세요.
+
+요구사항:
+- 주문 생성, 조회, 수정, 취소 기능 구현
+- 주문은 주문ID, 고객정보, 주문상품목록, 총금액, 주문상태, 주문일시 정보를 포함
+- 주문상품은 상품ID, 수량, 단가 정보를 포함
+- 주문상태는 결제대기, 결제완료, 배송준비, 배송중, 배송완료, 취소됨 상태 관리
+```
+<aside>  page: 23</aside>
+<!-- _footer: "" -->
+
+---
+<!-- _header: 상황별 프롬프트 예제 -->
+
+## **예제 2: 복잡한 JPA Query 작성**
+  
+**프롬프트 개선 예시**:
+```
+"사용자의 주문 내역을 조회하는 복잡한 JPA Query를 작성해주세요. 주문 상태, 날짜 범위
+, 금액 범위로 필터링이 가능해야 합니다."
+```
+
+**개선 후**:
+```
+"Spring Boot 2.7과 Spring Data JPA를 사용하여 사용자의 주문 내역을 조회하는 복잡한 
+JPA Query를 작성해주세요.
+
+기술 요구사항:
+- QueryDSL 또는 JPQL을 사용한 구현
+- 다음 필터링 조건 지원: 주문 상태, 주문 날짜 범위, 총 금액 범위
+- 페이징 처리(페이지 번호, 페이지 크기)
+- 정렬 기능(주문일, 금액, 상태 기준)
+
+성능 요구사항:
+- N+1 문제 방지를 위한 fetch join 사용
+- 인덱스 활용을 고려한 쿼리 설계
+```
+
+<!-- _footer: "" -->
+
+<aside>page: 24</aside>
+
+---
+<!-- _header: 상황별 프롬프트 예제-->
+
+## **예제 3: API 오류 처리 미들웨어 구현**
+
+**프롬프트 개선 예시**:
+```
+"REST API에서 발생할 수 있는 다양한 예외(유효성 검증 오류, 리소스 없음, 인증 오류, 
+서버 오류)를 처리하는 글로벌 예외 
+핸들러를 Spring Boot에서 구현해주세요."
+```
+
+**개선 후**:
+```
+"Spring Boot 3.0 애플리케이션에서 REST API의 전역 예외 처리를 위한 GlobalException
+Handler를 구현해주세요.
+
+요구사항:
+- @ControllerAdvice 또는 @RestControllerAdvice 사용
+- 다음 예외 유형별 처리 로직 구현:
+  1. ValidationException: 요청 데이터 유효성 검증 실패 (400 Bad Request)
+  2. ResourceNotFoundException: 요청한 리소스가 존재하지 않음 (404 Not Found)
+  3. UnauthorizedException: 인증 실패 (401 Unauthorized)
+  4. ForbiddenException: 권한 부족 (403 Forbidden)
+```
+
+<!-- _footer: "" -->
+
+<aside>page: 25</aside>
+
+---
+<!-- _header: 상황별 프롬프트 예제 -->
+
+## **예제 4: 데이터베이스 트랜잭션 관리**
+
+**프롬프트**:
+```
+"Spring Boot 2.7과 Spring Data JPA를 사용하여 은행 계좌 간 이체 서비스의 트랜잭션 
+관리 로직을 구현해주세요.
+
+비즈니스 요구사항:
+- 출금 계좌에서 금액 차감
+- 입금 계좌에 금액 추가
+- 거래 내역 기록
+- 모든 작업이 하나의 트랜잭션으로 처리되어야 함
+
+기술 요구사항:
+- @Transactional 어노테이션을 사용한 선언적 트랜잭션 관리
+- 롤백 조건 명시 (잔액 부족, 계좌 존재하지 않음 등)
+- 트랜잭션 격리 수준 설정 (READ_COMMITTED 이상)
+- 낙관적 락(Optimistic Locking)을 사용한 동시성 제어
+```
+
+<!-- _footer: "" -->
+
+<aside>page: 26</aside>
+
+---
+<!-- _header: 상황별 프롬프트 예제 -->
+
+## **예제 5: 단위 테스트 작성**
+
+**프롬프트**:
+```
+"Spring Boot 3.0 프로젝트에서 사용자 등록 서비스(UserRegistrationService)에 대한 
+JUnit 5 단위 테스트를 작성해주세요.
+
+테스트 요구사항:
+- Mockito를 사용하여 UserRepository, PasswordEncoder, EmailService 의존성 모킹
+- 다음 시나리오에 대한 테스트 케이스 작성:
+  1. 성공적인 사용자 등록
+  2. 이메일 중복 시 예외 발생
+  3. 유효하지 않은 비밀번호 입력 시 예외 발생
+  4. 이메일 서비스 실패 시 대응
+
+추가 요구사항:
+- @ExtendWith(MockitoExtension.class) 사용
+- BDDMockito 스타일 구문 사용(given/when/then)
+```
+
+<!-- _footer: "" -->
+
+<aside>page: 27</aside>
+
+---
+<!-- _header: 상황별 프롬프트 예제 -->
+
+## **예제 6: 보안 취약점 방어 코드 작성**
+
+**프롬프트**:
+```
+"Spring Boot 3.0과 Spring Security 6.0을 사용하여 사용자 입력을 받는 REST API 엔드
+포인트에서 다음 보안 취약점을 방어하는 
+코드를 구현해주세요:
+
+1. SQL 인젝션 방어:
+   - JPA/Hibernate의 parameterized 쿼리 사용 방법
+   - 사용자 입력에 대한 유효성 검증
+
+2. XSS(Cross-Site Scripting) 방어:
+   - 입력 데이터 이스케이핑
+   - Content-Security-Policy 헤더 설정
+   - HttpOnly 및 Secure 쿠키 설정
+
+3. CSRF(Cross-Site Request Forgery) 방어:
+   - Spring Security의 CSRF 보호 기능 구성
+   - CSRF 토큰 관리
+```
+
+<!-- _footer: "" -->
+
+<aside>page: 28</aside>
+
+---
+<!-- _header: 상황별 프롬프트 예제 -->
+
+## **예제 7: 캐시 구현**
+
+**프롬프트**:
+```
+"Spring Boot 2.7과 Spring Cache, Redis를 사용하여 자주 조회되는 상품 정보를 위한 캐
+싱 시스템을 구현해주세요.
+
+요구사항:
+1. 캐시 설정:
+   - Redis를 캐시 저장소로 사용
+   - 상품 정보 캐시의 TTL은 10분으로 설정
+   - 카테고리별 상품 목록 캐시의 TTL은 30분으로 설정
+
+2. 캐시 적용 대상:
+   - 단일 상품 조회 (findById)
+   - 카테고리별 상품 목록 조회 (findByCategory)
+   - 인기 상품 목록 조회 (findTopProducts)
+
+3. 캐시 무효화 전략:
+   - 상품 정보 업데이트 시 관련 캐시 자동 갱신
+   - 일괄 가격 변경 등 대량 업데이트 시 카테고리 캐시 삭제
+```
+
+<!-- _footer: "" -->
+
+<aside>page: 29</aside>
+
+---
+<!-- _header: 상황별 프롬프트 예제 -->
+
+## **예제 8: 비동기 작업 처리 서비스 구현**
+
+**프롬프트**:
+```
+"Spring Boot 2.7과 Spring Async를 사용하여 대용량 파일 업로드 및 처리를 비동기적으
+로 처리하는 서비스를 구현해주세요.
+
+기능 요구사항:
+1. 파일 업로드 처리:
+   - 사용자가 대용량 파일(CSV, Excel) 업로드
+   - 비동기로 파일 처리 작업 시작
+   - 작업 ID 즉시 반환하여 사용자가 진행 상황 추적 가능
+
+2. 진행 상태 추적:
+   - 작업 ID로 현재 진행 상태 조회 가능 (대기중, 처리중, 완료, 실패)
+   - 처리된 레코드 수 및 총 레코드 수 정보 제공
+   - 예상 완료 시간 계산
+```
+
+<!-- _footer: "" -->
+
+<aside>page: 30</aside>
+
+---
+<!-- _header: 상황별 프롬프트 예제 -->
+
+## **예제 9: 메시지 큐 통합**
+
+**프롬프트**:
+```
+"Spring Boot 2.7과 Spring AMQP를 사용하여 주문 처리 시스템에 RabbitMQ 기반 이벤트 
+처리 아키텍처를 구현해주세요.
+
+시스템 요구사항:
+1. 이벤트 유형:
+   - OrderCreatedEvent: 주문 생성 시 발생
+   - PaymentConfirmedEvent: 결제 확인 시 발생
+   - ShippingProcessedEvent: 배송 처리 시 발생
+   - OrderCompletedEvent: 주문 완료 시 발생
+
+2. 메시지 처리 요구사항:
+   - 메시지 지속성 보장(persistent messages)
+   - 메시지 수신 확인(acknowledgments)
+   - 데드 레터 큐 설정
+   - 실패한 메시지의 재시도 정책
+```
+
+<!-- _footer: "" -->
+
+<aside>page: 31</aside>
+
+---
+<!-- _header: 상황별 프롬프트 예제 -->
+
+## **예제 10: 도메인 주도 설계(DDD) 구현**
+
+**프롬프트**:
+```
+"Spring Boot 3.0과 Java 17을 사용하여 전자상거래 시스템의 주문 처리 도메인을 DDD(도
+메인 주도 설계) 원칙에 따라 구현해주
+세요.
+
+도메인 모델 요구사항:
+1. 애그리게이트(Aggregate):
+   - Order 애그리게이트: 주문 정보의 일관성과 트랜잭션 경계 관리
+   - Product 애그리게이트: 상품 정보와 재고 관리
+   - Customer 애그리게이트: 고객 정보 및 주소 관리
+
+2. 엔티티(Entity):
+   - Order: 주문의 핵심 엔티티, ID로 식별
+   - OrderLine: 주문 내 각 상품 항목
+   - Product: 상품 정보
+```
+
+<!-- _footer: "" -->
+
+<aside>page: 32</aside>
 
 ---
 
@@ -714,7 +714,7 @@ Google 스타일 가이드를 따라주세요.
 # 도입 사례
 <br /><br />
 
-<aside>page: 32</aside>
+<aside>page: 33</aside>
 
 ---
 <!-- _header: 도입 사례 -->
@@ -735,30 +735,8 @@ Google 스타일 가이드를 따라주세요.
   - 다양한 프로그래밍 언어 간 번역 기능
 <!-- _footer: "" -->
 
-<aside>page: 33</aside>
-
----
-<!-- _header: 도입 사례 -->
-
-## **GitHub Copilot 활용 예시**
-<br />
-
-```python
-# 사용자 입력을 검증하고 SQL 인젝션을 방지하는 함수 작성
-def validate_user_input(user_input):
-    # Copilot이 여기에 코드를 자동 생성
-```
-
-- 개발자가 주석으로 의도 전달 → AI가 코드 제안
-- Microsoft 연구: 개발자 생산성 55% 향상
-- 반복적 작업 자동화로 개발자 만족도 증가
-- Azure AI 플랫폼 통합으로 코드 리뷰 및 버그 감지 자동화
-
-![bg right:45% height:250](https://i.imgur.com/XEMDhlY.png)
-
-<!-- _footer: "" -->
-
 <aside>page: 34</aside>
+
 
 ---
 <!-- _header: 도입 사례 -->
@@ -886,12 +864,111 @@ def validate_user_input(user_input):
 
 ---
 
-> 소프트웨어 개발을 위한 프롬프트 엔지니어링
-<br />
-# 프롬프트 엔지니어링 도구 및 프레임워크
-<br /><br />
+<!-- _header: 도입 사례 -->
+
+### 프롬프트 엔지니어링 단계별 구현 가이드
+
+1. **평가 및 계획**: 현재 개발 프로세스 분석, AI 도입 우선순위 영역 선정, 팀 역량 평가
+   
+2. **파일럿 프로젝트**: 측정 가능한 소규모 프로젝트 선정, 명확한 성공 지표 설정, 결과 분석
+
+3. **프롬프트 템플릿 개발**: 용도별 템플릿 설계, 회사 코딩 표준 반영, 템플릿 최적화
+
+4. **개발 환경 통합**: IDE 및 CI/CD 파이프라인 연동, 프롬프트 관리 시스템 구축, 품질 검증 절차 수립
+
+5. **측정 및 최적화**: 개발 속도 및 코드 품질 지표 모니터링, 프롬프트 효과성 분석, 지속적 개선
+
+6. **확장 및 문화 변화**: 성공사례 공유, 단계적 확산 로드맵 수립, 전문가 양성 및 조직 문화 조성
+
+이 슬라이드는 경영진과 개발자 모두에게 AI 도입의 체계적인 접근 방식을 명확하게 전달할 수 있을 것입니다. 각 단계의 핵심 활동만 포함해 한눈에 프로세스 전체를 파악할 수 있게 했습니다.
+<!-- _footer: "" -->
 
 <aside>page: 41</aside>
+
+---
+
+<!-- _header: 결론 -->
+
+<div class="two-blocks">
+<div class="block" style="font-size:1em">
+  
+## **프롬프트 엔지니어링의 미래**
+
+- 프롬프트 엔지니어링은 단순 기술을 넘어 **핵심 역량**으로 
+자리매김
+- AI와 인간 개발자의 **협업 모델**이 표준이 될 전망
+- 모델의 발전에 따라 프롬프트 작성 방식과 활용 영역도
+  함께 진화
+- 장기적으로는 더 높은 수준의 추상화된 **의도 기반 소통** 방식
+으로 발전
+</div>
+<div class="block">
+  
+## **SI 기업의 AI 도입 전략**
+
+- **단계적 접근**: 소규모 프로젝트부터 시작하여 점진적으로 AI 활용 범위 확장
+- **역량 내재화**: 프롬프트 엔지니어링을 핵심 기술 역량으로 육성
+- **표준화**: 기업 환경에 맞는 프롬프트 템플릿과 가이드라인 개발
+- **측정 및 최적화**: 생산성, 코드 품질, ROI 등 성과 지표 설정 및 추적
+- **문화 조성**: AI 활용을 장려하는 조직 문화와 지식 공유 체계 구축
+</div></div>
+
+<!-- _footer: "" -->
+<aside>page: 42</aside>
+
+---
+
+<!-- _header: 결론 -->
+
+
+<div class="two-blocks">
+<div class="block" style="font-size:1em">
+  
+## **소프트웨어 개발의 새로운 패러다임**
+
+- AI는 개발자를 대체하는 것이 아님
+  -  **역량을 확장**하는 도구
+ 
+- 개발자의 역할이 변화
+  - 코드 작성에서 **디자인과 검증**으로 무게중심 이동
+ 
+- 개발 생산성과 품질의 획기적 향상
+  -  **더 복잡한 문제 해결**에 집중 가능
+ 
+- **창의적 문제 해결, 아키텍처 설계, 사용자 경험** 등
+  -  인간 개발자의 역할 중요성 증가
+
+</div>
+<div class="block" style="font-size:0.95em">
+
+## **미래 경쟁력 확보를 위한 제언**
+
+- **선제적 투자**
+  - 초기 생산성 저하를 감수하더라도 AI 도구 도입, 학습 투자
+ 
+- **융합형 인재 육성**
+  - 기술적 전문성 + 프롬프트 엔지니어링 역량 인재 양성
+ 
+- **지속적 실험**
+  - 다양한 AI 도구와 프롬프트 패턴의 효과성 실험 및 검증
+ 
+- **산학협력**
+  - 연구기관과 협력하여 최신 AI 기술 동향 파악 및 적용
+ 
+- **혁신 문화**
+  - 실패를 두려워하지 않는 실험 문화와 지속적 학습 환경 조성
+</div></div>
+
+<aside>page: 43</aside>
+
+---
+
+> 소프트웨어 개발을 위한 프롬프트 엔지니어링
+<br />
+# 부록. 프롬프트 엔지니어링 도구 및 프레임워크
+<br /><br />
+
+<aside>page: 44</aside>
 
 ---
 <!-- _header: 프롬프트 엔지니어링 도구 및 프레임워크 -->
@@ -906,7 +983,7 @@ def validate_user_input(user_input):
 
 <!-- _footer: "" -->
 
-<aside>page: 42</aside>
+<aside>page: 45</aside>
 
 ---
 <!-- _header: 프롬프트 엔지니어링 도구 및 프레임워크 -->
@@ -924,7 +1001,7 @@ def validate_user_input(user_input):
 
 <!-- _footer: "" -->
 
-<aside>page: 43</aside>
+<aside>page: 46</aside>
 
 ---
 <!-- _header: 프롬프트 엔지니어링 도구 및 프레임워크 -->
@@ -958,7 +1035,7 @@ response = model.predict_messages(messages)
 
 <!-- _footer: "" -->
 
-<aside>page: 44</aside>
+<aside>page: 47</aside>
 
 ---
 <!-- _header: 프롬프트 엔지니어링 도구 및 프레임워크 -->
@@ -975,7 +1052,7 @@ response = model.predict_messages(messages)
 
 <!-- _footer: "" -->
 
-<aside>page: 45</aside>
+<aside>page: 48</aside>
 
 ---
 <!-- _header: 프롬프트 엔지니어링 도구 및 프레임워크 -->
@@ -992,7 +1069,7 @@ response = model.predict_messages(messages)
 
 
 <!-- _footer: "" -->
-<aside>page: 46</aside>
+<aside>page: 49</aside>
 
 ---
 <!-- _header: 프롬프트 엔지니어링 도구 및 프레임워크 -->
@@ -1008,7 +1085,7 @@ response = model.predict_messages(messages)
   - **문서 생성**: 코드를 분석하여 문서 자동 생성
 
 <!-- _footer: "" -->
-<aside>page: 47</aside>
+<aside>page: 50</aside>
 
 ---
 <!-- _header: 프롬프트 엔지니어링 도구 및 프레임워크 -->
@@ -1033,16 +1110,16 @@ var result = await kernel.RunAsync("리팩토링이 필요한 함수",
 ```
 
 <!-- _footer: "" -->
-<aside>page: 48</aside>
+<aside>page: 51</aside>
 
 ---
 
 > 소프트웨어 개발을 위한 프롬프트 엔지니어링
 <br />
-# 교육 및 학습 자원
+# 부록. 교육 및 학습 자원
 <br /><br />
 
-<aside>page: 49</aside>
+<aside>page: 52</aside>
 
 ---
 <!-- _header: 교육 및 학습 자원 -->
@@ -1065,7 +1142,7 @@ var result = await kernel.RunAsync("리팩토링이 필요한 함수",
 
 
 <!-- _footer: "" -->
-<aside>page: 50</aside>
+<aside>page: 53</aside>
 
 ---
 <!-- _header: 교육 및 학습 자원 -->
@@ -1083,44 +1160,7 @@ var result = await kernel.RunAsync("리팩토링이 필요한 함수",
   - Anthropic, Cohere, Microsoft, Google AI 등 주요 AI 기업 블로그
 
 <!-- _footer: "" -->
-<aside>page: 51</aside>
-
----
-<!-- _header: 교육 및 학습 자원 -->
-
-## **프롬프트 엔지니어링 단계별 구현 가이드** 
-
-1. **평가 및 계획**
-   - 현재 개발 프로세스 분석
-   - AI 도입으로 개선 가능한 영역 식별
-   - 팀 역량 평가 및 교육 계획 수립
-
-2. **파일럿 프로젝트 선정**
-   - 복잡도가 낮고 결과 측정이 용이한 프로젝트 선택
-   - 명확한 성공 지표 설정
-   - 필요한 AI 도구 및 리소스 확보
-</div>
-<div class="block">
-  <br />
-  <br />
-  
-3. **프롬프트 템플릿 개발**
-   - 개발 작업별 프롬프트 템플릿 작성
-   - 템플릿 테스트 및 반복 개선
-   - 회사 코딩 표준 및 보안 정책 반영
-
-4. **통합 및 워크플로우 구축**
-   - 개발 환경에 AI 도구 통합
-   - 프롬프트 관리 시스템 구축
-   - 품질 보증 프로세스 수립
-
-5. **측정 및 최적화**
-   - 생산성 및 코드 품질 지표 측정
-   - 프롬프트 효과성 분석
-   - 지속적인 개선 체계 마련
-</div>
-<!-- _footer: "" -->
-<aside>page: 52</aside>
+<aside>page: 54</aside>
 
 ---
 <!-- _header: 교육 및 학습 자원 -->
@@ -1137,25 +1177,7 @@ var result = await kernel.RunAsync("리팩토링이 필요한 함수",
   - **결과**: 직원 생산성 35-40% 향상, 제품 혁신 가속화
 
 <!-- _footer: "" -->
-<aside>page: 53</aside>
-
----
-<!-- _header: 교육 및 학습 자원 -->
-
-## **개발자 커뮤니티 및 포럼**
-<br />
-
-- **Stack Overflow**: 프롬프트 엔지니어링 질문 및 답변
-- **GitHub Discussions**: 오픈소스 AI 프로젝트의 토론 공간
-- **Reddit r/PromptEngineering**: 커뮤니티 주도 정보 공유
-- **Discord 서버**:
-  - LangChain, HuggingFace 등 주요 AI 도구 커뮤니티
-  - OpenAI 개발자 커뮤니티
-- **AI 개발자 컨퍼런스 및 밋업**:
-  - AI DevDay, OpenAI DevDay 등 행사 자료
-
-<!-- _footer: "" -->
-<aside>page: 54</aside>
+<aside>page: 55</aside>
 
 ---
 <!-- _header: 교육 및 학습 자원 -->
@@ -1171,62 +1193,4 @@ var result = await kernel.RunAsync("리팩토링이 필요한 함수",
 - **협업 학습**: 팀 내 지식 공유 및 공동 프롬프트 개발
 
 <!-- _footer: "" -->
-<aside>page: 55</aside>
-
----
-<!-- _header: 결론 -->
-
-<div class="two-blocks">
-<div class="block" style="font-size1em">
-  
-## **프롬프트 엔지니어링의 미래**
-
-- 프롬프트 엔지니어링은 단순 기술을 넘어 **핵심 역량**으로 
-자리매김
-- AI와 인간 개발자의 **협업 모델**이 표준이 될 전망
-- 모델의 발전에 따라 프롬프트 작성 방식과 활용 영역도
-  함께 진화
-- 장기적으로는 더 높은 수준의 추상화된 **의도 기반 소통** 방식
-으로 발전
-</div>
-<div class="block">
-  
-## **SI 기업의 AI 도입 전략**
-
-- **단계적 접근**: 소규모 프로젝트부터 시작하여 점진적으로 AI 활용 범위 확장
-- **역량 내재화**: 프롬프트 엔지니어링을 핵심 기술 역량으로 육성
-- **표준화**: 기업 환경에 맞는 프롬프트 템플릿과 가이드라인 개발
-- **측정 및 최적화**: 생산성, 코드 품질, ROI 등 성과 지표 설정 및 추적
-- **문화 조성**: AI 활용을 장려하는 조직 문화와 지식 공유 체계 구축
-</div></div>
-
-<!-- _footer: "" -->
-<aside>page: 56</aside>
-
----
-<!-- _header: 결론 -->
-
-## **소프트웨어 개발의 새로운 패러다임**
-<br />
-
-- AI는 개발자를 대체하는 것이 아닌 **역량을 확장**하는 도구
-- 개발자의 역할이 변화: 코드 작성에서 **디자인과 검증**으로 무게중심 이동
-- 개발 생산성과 품질의 획기적 향상으로 **더 복잡한 문제 해결**에 집중 가능
-- **창의적 문제 해결, 아키텍처 설계, 사용자 경험** 등에서 인간 개발자의 역할 중요성 증가
-
-<!-- _footer: "" -->
 <aside>page: 57</aside>
-
----
-<!-- _header: 결론 -->
-
-## **미래 경쟁력 확보를 위한 제언**
-<br />
-
-- **선제적 투자**: 초기 생산성 저하를 감수하더라도 AI 도구 도입과 학습에 투자
-- **융합형 인재 육성**: 기술적 전문성과 프롬프트 엔지니어링 역량을 겸비한 인재 양성
-- **지속적 실험**: 다양한 AI 도구와 프롬프트 패턴의 효과성 실험 및 검증
-- **산학협력**: 연구기관과 협력하여 최신 AI 기술 동향 파악 및 적용
-- **혁신 문화**: 실패를 두려워하지 않는 실험 문화와 지속적 학습 환경 조성
-
-<aside>page: 58</aside>
