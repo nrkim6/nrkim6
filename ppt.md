@@ -185,7 +185,7 @@ _class: title
 - 예시를 통해 원하는 출력 형식과 스타일을 명확히 전달
 - 복잡한 패턴이나 형식을 요구하는 작업에 효과적
 - 모델이 예시로부터 패턴을 인식하고 유사한 결과물 생성 가능
-![bg right:37% height:470](https://i.imgur.com/KNWCqqb.png)
+![bg right:37% height:470](https://i.imgur.com/kGNmz8O.png)
 예시 : 
 ```
 다음은 REST API 컨트롤러의 예시입니다:
@@ -217,7 +217,7 @@ public class UserController {
 - 복잡한 소프트웨어 개발 과정에 적합
 - 중간 결과를 검토하고 수정할 기회 제공
 
-![bg right:37% height:470](https://i.imgur.com/lIynP3c.png)
+![bg right:37% height:470](https://i.imgur.com/P88iL6d.png)
 예시:
 
 ```
@@ -241,7 +241,7 @@ public class UserController {
 - 필요한 정보를 체계적으로 구조화
 - 팀 내에서 표준화된 프롬프트 패턴 확립 가능
 
-![bg right:37% height:470](https://i.imgur.com/f7LM21y.png)
+![bg right:37% height:470](https://i.imgur.com/hDCRWKw.png)
 
 예시:
 ```
@@ -266,7 +266,7 @@ public class UserController {
 - 복잡한 문제 해결 과정의 투명성 확보
 - 설계 문제, 알고리즘 개발, 아키텍처 결정에 특히 유용
 
-![bg right:37% height:470](https://i.imgur.com/HP3YQuf.png)
+![bg right:37% height:470](https://i.imgur.com/m3DVqV1.png)
 
 
 예시:
@@ -295,7 +295,7 @@ public class UserController {
 - 도메인 특화 솔루션 개발 시 정확성과 적합성 향상
 - 특정 프레임워크나 기술 스택에 특화된 코드 생성에 효과적
 
-![bg right:37% height:470](https://i.imgur.com/eYucsXV.png)
+![bg right:37% height:470](https://i.imgur.com/ROHEBN5.png)
 
 예시:
 ```
@@ -328,7 +328,7 @@ iter 구현
 - 특정 요구사항과 기술적 제약에 부합하는 결과물 유도
 - 복잡한 소프트웨어 개발 요구사항 구현에 효과적
 
-![bg right:37% height:470](https://i.imgur.com/KUozQgf.png)
+![bg right:37% height:470](https://i.imgur.com/LDgvIeo.png)
 
 예시:
 ```
@@ -357,7 +357,7 @@ iter 구현
 - 실제 소프트웨어 개발 과정과 유사한 점진적 접근법
 - 복잡한 개발 작업의 단계적 구현 가능
 
-![bg right:37% height:470](https://i.imgur.com/uVGHQJh.png)
+![bg right:37% height:470](https://i.imgur.com/rRhVp3p.png)
 
 예시:
 ```
@@ -1072,6 +1072,7 @@ JUnit 5 단위 테스트를 작성해주세요.
 
 ## **LangChain**
 <br />
+
 - **LLM 기반 애플리케이션 개발을 위한 프레임워크**
 - 주요 기능:
   - **프롬프트 템플릿**: 재사용 가능한 프롬프트 패턴 정의/관리
@@ -1379,9 +1380,9 @@ AI에게 특정 역할을 부여하여 그 관점에서 응답하도록 하는 �
 <div class="two-blocks">
 <div class="block">
 
-## **사고연쇄 (Chain-of-Thought, COT)**
+## **체인오브솟 (Chain-of-Thought)**
 
-AI가 복잡한 문제를 해결할 때 단계별로 사고 과정을 나열하도록 하는 프롬프팅 기법입니다. 생각의 사슬이라고도 부릅니다. 이를 통해 더 논리적이고 정확한 결과를 얻을 수 있습니다.
+AI가 복잡한 문제를 해결할 때 단계별로 사고 과정을 나열하도록 하는 프롬프팅 기법입니다. 이를 통해 더 논리적이고 정확한 결과를 얻을 수 있습니다.
 
 </div>
 <div class="block">
