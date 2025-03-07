@@ -185,7 +185,7 @@ _class: title
 - 예시를 통해 원하는 출력 형식과 스타일을 명확히 전달
 - 복잡한 패턴이나 형식을 요구하는 작업에 효과적
 - 모델이 예시로부터 패턴을 인식하고 유사한 결과물 생성 가능
-![bg right:37% height:470](https://i.imgur.com/if4d7ls.png)
+![bg right:37% height:470](https://i.imgur.com/KNWCqqb.png)
 예시 : 
 ```
 다음은 REST API 컨트롤러의 예시입니다:
@@ -385,42 +385,26 @@ iter 구현
 # 소프트웨어 개발에서의 프롬프트 엔지니어링 활용 영역
 <br /><br />
 
-<aside>page: 17>19</aside>
+<aside>page: 19</aside>
 
 ---
 <!-- _header: 소프트웨어 개발에서의 프롬프트 엔지니어링 활용 영역 -->
 
-
-## **소프트웨어 개발을 위한 프롬프트 설계 원칙**
+## **소프트웨어 개발을 위한 프롬프트 설계 전략**
 <br />
-
-효과적인 프롬프트 설계에는 다음과 같은 핵심 패턴이 있습니다:
 
 1. **기술 스택 상세화**: 프레임워크, 언어, 라이브러리와 그 버전 명시
 2. **요구사항 카테고리화**: 기능적, 비기능적, 기술적 요구사항으로 구분
 3. **구조 제공**: 참고할 코드 구조나 엔티티 관계 제시로 맥락 이해 지원
 4. **구체적 예시 제공**: API 요청/응답 형식, 메소드 시그니처 등 형태 제시
 5. **제약조건 명시**: 성능, 보안, 호환성 등 제약사항 명확화
+6. **명확한 목표 설정**: 코드의 구체적인 목적과 기능 명시
+7. **맥락 제공**: 코드가 사용될 환경, 의존성 정보 제공
+8. **예시 또는 참조 제공**: 비슷한 기능의 코드 예시나 문서 링크 제공
 
 <!-- _footer: "" -->
 
-<aside>page: 18>20</aside>
-
----
-<!-- _header: 소프트웨어 개발에서의 프롬프트 엔지니어링 활용 영역 -->
-
-## **프로그래밍 특화 프롬프트 적용 기법**
-<br />
-
-- **명확한 목표 설정**: 코드의 구체적인 목적과 기능 명시
-- **기술 스택 명시**: 프로그래밍 언어, 프레임워크, 버전 등 구체화
-- **맥락 제공**: 코드가 사용될 환경, 의존성 정보 제공
-- **제약 조건 설명**: 성능, 보안, 호환성, 코드 스타일 요구사항 명시
-- **예시 또는 참조 제공**: 비슷한 기능의 코드 예시나 문서 링크 제공
-
-<!-- _footer: "" -->
-
-<aside>page: 19>21</aside>
+<aside>page: 20</aside>
 
 ---
 
@@ -440,7 +424,7 @@ iter 구현
 
 <!-- _footer: "" -->
 
-<aside>page: 16>22</aside>
+<aside>page: 21</aside>
 
 ---
 
@@ -463,7 +447,7 @@ Make it a web-based application written in Python.
 ```
 <!-- _footer: "" -->
 
-<aside>page: 20>23</aside>
+<aside>page: 22</aside>
 
 ---
 <!-- _header: 소프트웨어 개발에서의 프롬프트 엔지니어링 활용 영역 -->
@@ -517,7 +501,7 @@ Google 스타일 가이드를 따라주세요.
 
 <!-- _footer: "" -->
 
-<aside>page: 21>24</aside>
+<aside>page: 23</aside>
 
 ---
 
@@ -527,7 +511,7 @@ Google 스타일 가이드를 따라주세요.
 # 상황별 프롬프트 예제
 <br /><br />
 
-<aside>page: 22>25</aside>
+<aside>page: 24</aside>
 
 ---
 
@@ -554,7 +538,7 @@ RESTful API 엔드포인트와 필요한 데이터
 - 주문상품은 상품ID, 수량, 단가 정보를 포함
 - 주문상태는 결제대기, 결제완료, 배송준비, 배송중, 배송완료, 취소됨 상태 관리
 ```
-<aside>  page: 23>26</aside>
+<aside>  page: 25</aside>
 <!-- _footer: "" -->
 
 ---
@@ -586,7 +570,7 @@ JPA Query를 작성해주세요.
 
 <!-- _footer: "" -->
 
-<aside>page: 24>27</aside>
+<aside>page: 26</aside>
 
 ---
 <!-- _header: 상황별 프롬프트 예제-->
@@ -616,7 +600,7 @@ Handler를 구현해주세요.
 
 <!-- _footer: "" -->
 
-<aside>page: 25>28</aside>
+<aside>page: 27</aside>
 
 ---
 <!-- _header: 상황별 프롬프트 예제 -->
@@ -643,7 +627,7 @@ Handler를 구현해주세요.
 
 <!-- _footer: "" -->
 
-<aside>page: 26>29</aside>
+<aside>page: 28</aside>
 
 ---
 <!-- _header: 상황별 프롬프트 예제 -->
@@ -670,7 +654,7 @@ JUnit 5 단위 테스트를 작성해주세요.
 
 <!-- _footer: "" -->
 
-<aside>page: 27>30</aside>
+<aside>page: 29</aside>
 
 ---
 <!-- _header: 상황별 프롬프트 예제 -->
@@ -699,7 +683,7 @@ JUnit 5 단위 테스트를 작성해주세요.
 
 <!-- _footer: "" -->
 
-<aside>page: 28>31</aside>
+<aside>page: 30</aside>
 
 ---
 <!-- _header: 상황별 프롬프트 예제 -->
@@ -729,7 +713,7 @@ JUnit 5 단위 테스트를 작성해주세요.
 
 <!-- _footer: "" -->
 
-<aside>page: 29>32</aside>
+<aside>page: 31</aside>
 
 ---
 <!-- _header: 상황별 프롬프트 예제 -->
@@ -755,7 +739,7 @@ JUnit 5 단위 테스트를 작성해주세요.
 
 <!-- _footer: "" -->
 
-<aside>page: 30>33</aside>
+<aside>page: 32</aside>
 
 ---
 <!-- _header: 상황별 프롬프트 예제 -->
@@ -783,7 +767,7 @@ JUnit 5 단위 테스트를 작성해주세요.
 
 <!-- _footer: "" -->
 
-<aside>page: 31>34</aside>
+<aside>page: 33</aside>
 
 ---
 <!-- _header: 상황별 프롬프트 예제 -->
@@ -810,7 +794,7 @@ JUnit 5 단위 테스트를 작성해주세요.
 
 <!-- _footer: "" -->
 
-<aside>page: 32>35</aside>
+<aside>page: 34</aside>
 
 ---
 
@@ -819,7 +803,7 @@ JUnit 5 단위 테스트를 작성해주세요.
 # 도입 사례
 <br /><br />
 
-<aside>page: 33>36</aside>
+<aside>page: 35</aside>
 
 ---
 <!-- _header: 도입 사례 -->
@@ -840,7 +824,7 @@ JUnit 5 단위 테스트를 작성해주세요.
   - 다양한 프로그래밍 언어 간 번역 기능
 <!-- _footer: "" -->
 
-<aside>page: 34>37</aside>
+<aside>page: 36</aside>
 
 
 ---
@@ -858,7 +842,7 @@ JUnit 5 단위 테스트를 작성해주세요.
   - Formula 1: 서비스 응답 속도 80% 단축
 <!-- _footer: "" -->
 
-<aside>page: 35>38</aside>
+<aside>page: 37</aside>
 
 ---
 <!-- _header: 도입 사례 -->
@@ -880,7 +864,7 @@ JUnit 5 단위 테스트를 작성해주세요.
   - API 문서 작성, 코드 리뷰, 버그 수정 지원
 <!-- _footer: "" -->
 
-<aside>page: 36>39</aside>
+<aside>page: 38</aside>
 
 ---
 <!-- _header: 도입 사례 -->
@@ -898,7 +882,7 @@ JUnit 5 단위 테스트를 작성해주세요.
 - 복잡한 코딩 지식 없이도 AI 모델 구축 및 적용 가능
 <!-- _footer: "" -->
 
-<aside>page: 37>40</aside>
+<aside>page: 39</aside>
 
 ---
 <!-- _header: 도입 사례 -->
@@ -908,18 +892,18 @@ JUnit 5 단위 테스트를 작성해주세요.
 
 - **요구사항 명확화**: 
   - 모호한 부분 식별 및 명확한 질문 생성
-  - 요구사항 분석 단계 오해 50% 이상 감소
+  - 요구사항 분석 단계의 오해 감소
 
 - **작업 분해**: 
   - 복잡한 개발 작업을 관리 가능한 태스크로 분해
-  - 프로젝트 계획 수립 시간 40% 단축
+  - 프로젝트 계획 수립 시간 단축
 
 - **아키텍처 설계 지원**: 
   - Tesla 사례: 센서 데이터 처리 아키텍처 최적화
-  - 데이터 처리 효율 30% 향상
+  - 효율적인 데이터 처리 시스템 구축
 <!-- _footer: "" -->
 
-<aside>page: 38>41</aside>
+<aside>page: 40</aside>
 
 ---
 <!-- _header: 도입 사례 -->
@@ -927,22 +911,22 @@ JUnit 5 단위 테스트를 작성해주세요.
 ## **프로세스별 개선 효과 - 코드 개발 및 테스트 단계**
 
 - **코드 자동 생성**: 
-  - 개발자 코드 작성 속도 평균 55% 향상
+  - 개발자 코드 작성 속도 향상
   - 반복적인 코드 패턴 작성 효율 극대화
 
 - **단위 테스트 자동화**: 
-  - 테스트 코드 작성 시간 60%까지 단축
-  - 테스트 커버리지 15~20% 향상
+  - 테스트 코드 작성 시간 단축
+  - 테스트 커버리지 향상
 
 - **코드 리뷰 효율화**: 
-  - Microsoft: 코드 품질 이슈 초기 발견 및 수정 시간 40% 단축
+  - Microsoft: 코드 품질 이슈 초기 발견 및 신속한 수정
 
 - **버그 예측 및 방지**: 
   - Spotify: 배포 전 잠재적 이슈 식별
-  - 운영 환경 오류 35% 감소
+  - 운영 환경 오류 감소
 <!-- _footer: "" -->
 
-<aside>page: 39>42</aside>
+<aside>page: 41</aside>
 
 ---
 <!-- _header: 도입 사례 -->
@@ -950,22 +934,22 @@ JUnit 5 단위 테스트를 작성해주세요.
 ## **프로세스별 개선 효과 - 배포 및 유지보수 단계**
 
 - **자동화된 배포 파이프라인**: 
-  - 배포 시간 평균 45% 단축
-  - 배포 실패율 60% 감소
+  - 배포 시간 단축
+  - 배포 실패율 감소
 
 - **성능 모니터링 및 최적화**: 
-  - Salesforce Einstein: 고객사 시스템 응답 시간 평균 25% 개선
+  - Salesforce Einstein: 고객사 시스템 응답 시간 개선
 
 - **사용자 피드백 분석**: 
   - 네이버 CLOVA Studio: 개선 우선순위 결정에 활용
-  - 고객 만족도 20% 이상 향상
+  - 고객 만족도 향상
 
 - **레거시 코드 현대화**: 
-  - IBM Watson: 레거시 시스템 현대화 프로젝트 기간 30% 단축
-  - 비용 25% 절감
+  - IBM Watson: 레거시 시스템 현대화 프로젝트 효율화
+  - 비용 절감 효과
 <!-- _footer: "" -->
 
-<aside>page: 40>43</aside>
+<aside>page: 42</aside>
 
 ---
 
@@ -981,7 +965,7 @@ JUnit 5 단위 테스트를 작성해주세요.
 6. **확장 및 문화 변화**: 성공사례 공유, 단계적 확산 로드맵 수립, 전문가 양성 및 조직 문화 조성
 
 
-<aside>page: 41>44</aside>
+<aside>page: 43</aside>
 
 ---
 
@@ -1012,7 +996,7 @@ JUnit 5 단위 테스트를 작성해주세요.
 </div></div>
 
 <!-- _footer: "" -->
-<aside>page: 42>45</aside>
+<aside>page: 44</aside>
 
 ---
 
@@ -1057,7 +1041,7 @@ JUnit 5 단위 테스트를 작성해주세요.
   - 실패를 두려워하지 않는 실험 문화와 지속적 학습 환경 조성
 </div></div>
 
-<aside>page: 43>46</aside>
+<aside>page: 45</aside>
 
 ---
 
@@ -1066,7 +1050,7 @@ JUnit 5 단위 테스트를 작성해주세요.
 # 부록. 프롬프트 엔지니어링 도구 및 프레임워크
 <br /><br />
 
-<aside>page: 44>47</aside>
+<aside>page: 46</aside>
 
 ---
 <!-- _header: 프롬프트 엔지니어링 도구 및 프레임워크 -->
@@ -1081,7 +1065,7 @@ JUnit 5 단위 테스트를 작성해주세요.
 
 <!-- _footer: "" -->
 
-<aside>page: 45>48</aside>
+<aside>page: 47</aside>
 
 ---
 <!-- _header: 프롬프트 엔지니어링 도구 및 프레임워크 -->
@@ -1098,7 +1082,7 @@ JUnit 5 단위 테스트를 작성해주세요.
 
 <!-- _footer: "" -->
 
-<aside>page: 46>49</aside>
+<aside>page: 48</aside>
 
 ---
 <!-- _header: 프롬프트 엔지니어링 도구 및 프레임워크 -->
@@ -1132,7 +1116,7 @@ response = model.predict_messages(messages)
 
 <!-- _footer: "" -->
 
-<aside>page: 47>50</aside>
+<aside>page: 49</aside>
 
 ---
 <!-- _header: 프롬프트 엔지니어링 도구 및 프레임워크 -->
@@ -1149,7 +1133,7 @@ response = model.predict_messages(messages)
 
 <!-- _footer: "" -->
 
-<aside>page: 48>51</aside>
+<aside>page: 50</aside>
 
 ---
 <!-- _header: 프롬프트 엔지니어링 도구 및 프레임워크 -->
@@ -1166,7 +1150,7 @@ response = model.predict_messages(messages)
 
 
 <!-- _footer: "" -->
-<aside>page: 49>52</aside>
+<aside>page: 51</aside>
 
 ---
 <!-- _header: 프롬프트 엔지니어링 도구 및 프레임워크 -->
@@ -1182,7 +1166,7 @@ response = model.predict_messages(messages)
   - **문서 생성**: 코드를 분석하여 문서 자동 생성
 
 <!-- _footer: "" -->
-<aside>page: 50>53</aside>
+<aside>page: 52</aside>
 
 ---
 <!-- _header: 프롬프트 엔지니어링 도구 및 프레임워크 -->
@@ -1207,7 +1191,8 @@ var result = await kernel.RunAsync("리팩토링이 필요한 함수",
 ```
 
 <!-- _footer: "" -->
-<aside>page: 51>54</aside>
+
+<aside>page: 53</aside>
 
 ---
 
@@ -1216,7 +1201,7 @@ var result = await kernel.RunAsync("리팩토링이 필요한 함수",
 # 부록. 교육 및 학습 자원
 <br /><br />
 
-<aside>page: 52>55</aside>
+<aside>page: 54</aside>
 
 ---
 <!-- _header: 교육 및 학습 자원 -->
@@ -1239,7 +1224,7 @@ var result = await kernel.RunAsync("리팩토링이 필요한 함수",
 
 
 <!-- _footer: "" -->
-<aside>page: 53>56</aside>
+<aside>page: 55</aside>
 
 ---
 <!-- _header: 교육 및 학습 자원 -->
@@ -1257,7 +1242,7 @@ var result = await kernel.RunAsync("리팩토링이 필요한 함수",
   - Anthropic, Cohere, Microsoft, Google AI 등 주요 AI 기업 블로그
 
 <!-- _footer: "" -->
-<aside>page: 54>57</aside>
+<aside>page: 56</aside>
 
 ---
 <!-- _header: 교육 및 학습 자원 -->
@@ -1274,7 +1259,8 @@ var result = await kernel.RunAsync("리팩토링이 필요한 함수",
   - **결과**: 직원 생산성 35-40% 향상, 제품 혁신 가속화
 
 <!-- _footer: "" -->
-<aside>page: 55>58</aside>
+
+<aside>page: 57</aside>
 
 ---
 <!-- _header: 교육 및 학습 자원 -->
@@ -1290,5 +1276,195 @@ var result = await kernel.RunAsync("리팩토링이 필요한 함수",
 - **협업 학습**: 팀 내 지식 공유 및 공동 프롬프트 개발
 
 <!-- _footer: "" -->
-<aside>page: 57>60</aside>
 
+<aside>page: 59</aside>
+
+---
+
+> 소프트웨어 개발을 위한 프롬프트 엔지니어링
+<br />
+# 부록 C. 용어사전
+<br /><br />
+
+<aside>page: 60</aside>
+
+---
+<!-- _header: 부록 C. 용어사전 -->
+
+## **용어사전 소개**
+<br />
+
+프롬프트 엔지니어링과 AI 개발 영역에서 자주 사용되는 용어들의 정의를 제공합니다. 
+이 용어사전은 AI 활용 소프트웨어 개발 과정에서 필요한 주요 개념들을 이해하는 데 도움이 됩니다.
+
+<!-- _footer: "" -->
+
+<aside>page: 61</aside>
+
+---
+<!-- _header: 부록 C. 용어사전 -->
+
+<div class="two-blocks">
+<div class="block">
+
+## **프롬프트 (Prompt)**
+
+AI 모델에 입력되는 지시문 또는 질의로, 모델이 생성해야 할 출력의 형태와 내용을 안내하는 텍스트입니다. 효과적인 프롬프트는 모델이 원하는 결과를 정확하게 생성하도록 충분한 맥락과 지시를 포함해야 합니다.
+
+</div>
+<div class="block">
+
+## **프롬프트 엔지니어링 (Prompt Engineering)**
+
+AI 모델, 특히 대형 언어 모델(LLM)에 명확하고 효과적인 지침을 제공하여 원하는 출력을 얻는 과정입니다. 소프트웨어 개발 분야에서는 코드 생성, 디버깅, 테스트 자동화, 문서화 등 다양한 작업을 지원하는데 사용됩니다.
+
+</div>
+</div>
+
+<!-- _footer: "" -->
+
+<aside>page: 62</aside>
+
+---
+<!-- _header: 부록 C. 용어사전 -->
+
+<div class="two-blocks">
+<div class="block">
+
+## **LLM (Large Language Model)**
+
+대량의 텍스트 데이터로 학습된 대규모 언어 모델로, 텍스트 이해 및 생성 능력을 갖추고 있습니다. GPT(Generative Pre-trained Transformer), LLaMA, Claude 등이 대표적인 예시입니다. 소프트웨어 개발에서는 코드 생성, 문서화, 설계 등 다양한 영역에서 활용됩니다.
+
+</div>
+<div class="block">
+
+## **Few-shot 프롬프팅 (Few-shot Prompting)**
+
+AI에게 몇 가지 예시를 제공하여 원하는 결과물의 형태를 학습시키는 방법입니다. 이 방법은 모델이 특정 형식이나 스타일을 이해하고 따르도록 돕습니다.
+
+</div>
+</div>
+
+<!-- _footer: "" -->
+
+<aside>page: 63</aside>
+
+---
+<!-- _header: 부록 C. 용어사전 -->
+
+<div class="two-blocks">
+<div class="block">
+
+## **제로샷 프롬프팅 (Zero-shot Prompting)**
+
+어떠한 예시도 제공하지 않고 직접적인 지시만으로 AI가 작업을 수행하도록 하는 방법입니다. 예시 없이도 모델이 지시를 이해하고 적절한 출력을 생성할 때 사용됩니다.
+
+</div>
+<div class="block">
+
+## **역할 기반 프롬프팅 (Role-based Prompting)**
+
+AI에게 특정 역할을 부여하여 그 관점에서 응답하도록 하는 기법입니다. 예를 들어, "시니어 소프트웨어 엔지니어로서 이 코드를 리뷰해주세요"와 같이 사용됩니다.
+
+</div>
+</div>
+
+<!-- _footer: "" -->
+
+<aside>page: 64</aside>
+
+---
+<!-- _header: 부록 C. 용어사전 -->
+
+<div class="two-blocks">
+<div class="block">
+
+## **사고연쇄 (Chain-of-Thought, COT)**
+
+AI가 복잡한 문제를 해결할 때 단계별로 사고 과정을 나열하도록 하는 프롬프팅 기법입니다. 생각의 사슬이라고도 부릅니다. 이를 통해 더 논리적이고 정확한 결과를 얻을 수 있습니다.
+
+</div>
+<div class="block">
+
+## **단계별 프롬프팅 (Step-by-Step Prompting)**
+
+복잡한 작업을 작은 단계로 나누어 AI가 순차적으로 처리하도록 하는 방법입니다. 각 단계마다 명확한 지시를 제공하여 정확도를 높입니다.
+
+</div>
+</div>
+
+<!-- _footer: "" -->
+
+<aside>page: 65</aside>
+
+---
+<!-- _header: 부록 C. 용어사전 -->
+
+<div class="two-blocks">
+<div class="block">
+
+## **템플릿 접근법 (Template Approach)**
+
+반복적으로 사용할 수 있는 프롬프트 템플릿을 개발하는 방법입니다. 일관된 형식의 프롬프트를 통해 예측 가능한 결과를 얻을 수 있습니다.
+
+</div>
+<div class="block">
+
+## **LangChain**
+
+LLM 기반 애플리케이션 개발을 위한 프레임워크로, 프롬프트 엔지니어링을 쉽게 구현할 수 있습니다. 데이터 검색, 체인 생성, 외부 도구 연동 등의 기능을 제공합니다.
+
+</div>
+</div>
+
+<!-- _footer: "" -->
+
+<aside>page: 66</aside>
+
+---
+<!-- _header: 부록 C. 용어사전 -->
+
+<div class="two-blocks">
+<div class="block">
+
+## **RAG (Retrieval-Augmented Generation)**
+
+외부 데이터베이스나 지식 저장소에서 관련 정보를 검색하여 LLM의 응답 생성을 보강하는 기술입니다. 이를 통해 최신 정보나 특정 도메인 지식을 활용할 수 있습니다.
+
+</div>
+<div class="block">
+
+## **프롬프트 인젝션 (Prompt Injection)**
+
+악의적인 입력을 통해 AI 시스템의 보안을 우회하거나 의도하지 않은 출력을 유도하는 공격 방법입니다. 보안 관점에서 중요하게 다뤄야 할 위험 요소입니다.
+
+</div>
+</div>
+
+<!-- _footer: "" -->
+
+<aside>page: 67</aside>
+
+---
+<!-- _header: 부록 C. 용어사전 -->
+
+<div class="two-blocks">
+<div class="block">
+
+## **파인튜닝 (Fine-tuning)**
+
+사전 학습된 AI 모델을 특정 작업이나 도메인에 맞게 추가 학습시키는 과정입니다. 프롬프트 엔지니어링만으로는 한계가 있을 때 활용됩니다.
+
+</div>
+<div class="block">
+
+## **RLHF (Reinforcement Learning from Human Feedback)**
+
+인간 피드백을 기반으로 강화 학습을 적용하여 AI 모델의 출력 품질을 향상시키는 방법입니다. 특히 AI의 응답이 인간의 선호도와 가치에 부합하도록 조정하는 데 사용됩니다.
+
+</div>
+</div>
+
+<!-- _footer: "" -->
+
+<aside>page: 68</aside> 
